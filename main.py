@@ -19,8 +19,8 @@ def main():
     # print(posts)
 
     """ Post your photo """
-    # photo = poster.create_image(image=open("dummy.jpg", 'rb'), published=False)
-    # print(photo)
+    photo = poster.create_image(image=open("dummy.jpg", 'rb'), published=False)
+    print(photo)
 
     """ Create post in page's feed with content and attach image_id """
     # attached_media = json.dumps([{'media_fbid': 'put_photo_id_here'}])

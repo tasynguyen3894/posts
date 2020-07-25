@@ -22,7 +22,7 @@ class Poster():
     def get_post(self, *args, **kwargs):
         return self._strategy.get_post(*args, **kwargs)
 
-    def create_image(self, image, published, *args, **kwargs):
-        return self._strategy.create_image(image, published, *args, **kwargs)
+    def create_image(self, image, *args, **kwargs):
+        return self._strategy.create_image(image, *args, **kwargs)
 
     

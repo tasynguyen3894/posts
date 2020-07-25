@@ -13,7 +13,7 @@ class FacebookPoster(BasePoster):
         return False
 
     def end_session(self, access_info):
-        pass
+        self.graph = None
 
     def create_post(self, content, *args, **kwargs):
         if self.graph is None:
